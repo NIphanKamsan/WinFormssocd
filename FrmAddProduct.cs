@@ -23,6 +23,7 @@ namespace WinFormsApp1
             SqlCommand cmd = new SqlCommand("insertNewProduct", conn);
             cmd.CommandType = CommandType.StoredProcedure;
             cmd.Parameters.AddWithValue("@pname", txtPname.Text);
+            //cmd.Parameters.Add("@Price",SqlDbType.)
 
             // ตรวจสอบและแปลงค่า txtPrice.Text เป็น decimal ก่อน
             decimal price;

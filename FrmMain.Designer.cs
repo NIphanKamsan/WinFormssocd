@@ -43,6 +43,7 @@
             workshopStoreProcedureToolStripMenuItem = new ToolStripMenuItem();
             insertProductToolStripMenuItem = new ToolStripMenuItem();
             formAddUserToolStripMenuItem = new ToolStripMenuItem();
+            สอบวนท3ToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -114,7 +115,7 @@
             // 
             // จดการขอมลToolStripMenuItem
             // 
-            จดการขอมลToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { จดการขอมลสนคาToolStripMenuItem });
+            จดการขอมลToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { จดการขอมลสนคาToolStripMenuItem, สอบวนท3ToolStripMenuItem });
             จดการขอมลToolStripMenuItem.Font = new Font("Microsoft Sans Serif", 22.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
             จดการขอมลToolStripMenuItem.Name = "จดการขอมลToolStripMenuItem";
             จดการขอมลToolStripMenuItem.Size = new Size(214, 53);
@@ -165,6 +166,13 @@
             formAddUserToolStripMenuItem.Text = "Form Add User";
             formAddUserToolStripMenuItem.Click += formAddUserToolStripMenuItem_Click;
             // 
+            // สอบวนท3ToolStripMenuItem
+            // 
+            สอบวนท3ToolStripMenuItem.Name = "สอบวนท3ToolStripMenuItem";
+            สอบวนท3ToolStripMenuItem.Size = new Size(408, 54);
+            สอบวนท3ToolStripMenuItem.Text = "สอบวันที่3";
+            สอบวนท3ToolStripMenuItem.Click += สอบวนท3ToolStripMenuItem_Click;
+            // 
             // FrmMain
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -200,5 +208,6 @@
         private ToolStripMenuItem workshopStoreProcedureToolStripMenuItem;
         private ToolStripMenuItem insertProductToolStripMenuItem;
         private ToolStripMenuItem formAddUserToolStripMenuItem;
+        private ToolStripMenuItem สอบวนท3ToolStripMenuItem;
     }
 }

@@ -97,5 +97,10 @@ namespace WinFormsApp1
             int orderID = Convert.ToInt32(dgvOrder.Rows[row].Cells[0].Value);
             showOrderDetail(orderID);
         }
+
+        private void cboCountry_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

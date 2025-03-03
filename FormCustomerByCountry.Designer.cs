@@ -38,7 +38,7 @@
             // 
             cboCountry.Font = new Font("Microsoft Sans Serif", 22.1999989F, FontStyle.Bold);
             cboCountry.FormattingEnabled = true;
-            cboCountry.Location = new Point(452, 39);
+            cboCountry.Location = new Point(464, 39);
             cboCountry.Name = "cboCountry";
             cboCountry.Size = new Size(565, 50);
             cboCountry.TabIndex = 0;

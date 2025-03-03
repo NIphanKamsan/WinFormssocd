@@ -78,6 +78,7 @@
             cboCountry.Name = "cboCountry";
             cboCountry.Size = new Size(437, 46);
             cboCountry.TabIndex = 3;
+            cboCountry.SelectedIndexChanged += cboCountry_SelectedIndexChanged;
             // 
             // label3
             // 
